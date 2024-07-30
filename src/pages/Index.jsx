@@ -46,7 +46,7 @@ const Index = () => {
           placeholder="Hack the search..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="terminal-input pl-10"
+          className="terminal-input pl-12"
         />
       </div>
       {isLoading && (
